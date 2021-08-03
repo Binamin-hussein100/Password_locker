@@ -1,6 +1,5 @@
 import unittest
-import random
-import string
+import pyperclip
 from passcode import Details
 
 
@@ -28,7 +27,17 @@ class TestDetails(unittest.TestCase):
         """
         self.new_details.save()
         self.assertEqual(len(Details.storage_list),1)
-         
+    
+    def tearDown(self):
+        """
+        clears the list after each case is run
+        """
+        Details.storage_list = []  
+        
+    
+class TestCredencials(unittest.TestCase):
+    
+    
 
 if __name__ == '__main__':
     unittest.main()
