@@ -1,6 +1,6 @@
 import unittest
 import pyperclip
-from passcode import Details
+
 
 
 class TestDetails(unittest.TestCase):
