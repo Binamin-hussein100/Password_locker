@@ -57,15 +57,15 @@ def main():
         print("CD-create new user.\n LOG-log in into an existing account.\n DEL-remove a user. \n EXIT-to exit")   
         option = input("Enter your option: ")
         
-        if option == "CD":
-            print("Create user")
-            Name = input("Your name: ")
-            username = input("User name: ")
-            password = input("User password" )
+        # if option == "CD":
+        #     print("Create user")
+        #     Name = input("Your name: ")
+        #     username = input("User name: ")
+        #     password = input("User password" )
             
-            save(create_user(Name,username,password))
+        #     save(create_user(Name,username,password))
             
-            print(f"\nNew user {Name} created\n\n")
+        #     print(f"\nNew user {Name} created\n\n")
             
         
 if __name__ == '__main__':
