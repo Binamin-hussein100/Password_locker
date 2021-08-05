@@ -68,5 +68,5 @@ def main():
             print(f"\nNew user {Name} created\n\n")
             
         
-if __name__ == '__main__':
-    main()            
+# if __name__ == '__main__':
+#     main()            
