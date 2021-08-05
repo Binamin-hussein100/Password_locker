@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-from os import name
+
 from random import choice
 from user import User
 from user import Credentials
@@ -27,7 +27,7 @@ def save(account):
     """
     saves a credencial
     """
-    account.save_account()
+    account.save_user()
   
 def setting_password():
     return Credentials.set_password()
@@ -68,5 +68,5 @@ def main():
             print(f"\nNew user {Name} created\n\n")
             
         
-# if __name__ == '__main__':
-#     main()            
+if __name__ == '__main__':
+    main()            
