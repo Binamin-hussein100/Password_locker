@@ -48,8 +48,8 @@ def random_pass(length):
     """
     return Credentials.generate_password(length)
 
-def main():
-    print("Welcome. we are honoured to have you here")
+# def main():
+#     print("Welcome. we are honoured to have you here")
     
     while True:
         print("What would you like to do? (enter number to select")
